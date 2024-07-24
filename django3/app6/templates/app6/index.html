@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Display websites</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit">search website</button>
+    </form>
+    {% for i in param1 %}
+    <h3><a href="http://google.co.in">{{i}}</a> </h3>
+    {% endfor %}
+</body>
+</html>

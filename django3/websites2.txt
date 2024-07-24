@@ -1,0 +1,5 @@
+Google,https://www.google.co.in/,MountainView
+Apple,https://www.apple.com/,Cupertino
+Microsoft,https://www.microsoft.com/en-in/,Redmond
+Oracle,https://www.oracle.com/,Austin
+Facebook,https://www.meta.com/,Menlo Park

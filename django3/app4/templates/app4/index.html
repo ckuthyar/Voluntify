@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        td{
+            border:1px solid black
+        }
+    </style>
 </head>
 <body>
     <h1>Factorial Calculator</h1>
@@ -12,6 +17,18 @@
         {{form.as_p}}
         <button type="submit">find factorial</button>
     </form>
-    <h3> factorial {{param2}} is {{param1}}</h3>
+    <table>
+
+    
+    {% for i in param1 %}
+    <br>
+    <tr>
+    {% for j in i %}
+    <td>{{j}}</td>
+    {% endfor %}
+    </tr>
+    {% endfor %}
+    </table>
+
 </body>
 </html>

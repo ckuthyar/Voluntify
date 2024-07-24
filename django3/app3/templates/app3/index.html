@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border:1px solid black
+        }
+        td {
+            border:1px solid black
+        }
+        td {
+            font-size: 40px;
+            margin-left: 40px;
+        }
+        .theme1{
+            background-color: rgb(237, 221, 221);
+        }
+    </style>
+</head>
+<body>
+    <h1>Chessboard Game</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit">find factorial</button>
+    </form>
+    <h3>{{param1}}</h3>
+    <centre>
+    <table>
+        <tr>
+            <td>&#9814</td>
+            <td class="theme1">&#9816</td>
+            <td>&#9815</td>
+            <td class="theme1">&#9813</td>
+            <td>&#9812</td>
+            <td class="theme1">&#9815</td>
+            <td>&#9816</td>
+            <td class="theme1">&#9814</td>
+        </tr>
+        <tr>
+            <td class="theme1">&#9817</td>
+            <td>&#9817</td>
+            <td class="theme1">&#9817</td>
+            <td>&#9817</td>
+            <td class="theme1">&#9817</td>
+            <td>&#9817</td>
+            <td class="theme1">&#9817</td>
+            <td>&#9817</td>
+            
+        </tr>
+        <tr>
+            <td>.</td>
+            <td class="theme1">.</td>
+            <td>.</td>
+            <td class="theme1">.</td>
+            <td>.</td>
+            <td class="theme1">.</td>
+            <td>.</td>
+            <td class="theme1">.</td>
+        </tr>
+        <tr>
+            <td class="theme1">.</td>
+            <td>.</td>
+            <td class="theme1">.</td>
+            <td>.</td>
+            <td class="theme1">.</td>
+            <td>.</td>
+            <td class="theme1">.</td>
+            <td>.</td>
+        </tr>
+        <tr>
+            <td>.</td>
+            <td class="theme1">.</td>
+            <td>.</td>
+            <td class="theme1">.</td>
+            <td>.</td>
+            <td class="theme1">.</td>
+            <td>.</td>
+            <td class="theme1">.</td>
+        </tr>
+        <tr>
+            <td class="theme1">.</td>
+            <td>.</td>
+            <td class="theme1">.</td>
+            <td>.</td>
+            <td class="theme1">.</td>
+            <td>.</td>
+            <td class="theme1">.</td>
+            <td>.</td>
+        </tr>
+        
+        <tr>
+            <td>&#9823</td>
+            <td class="theme1">&#9823</td>
+            <td>&#9823</td>
+            <td class="theme1">&#9823</td>
+            <td>&#9823</td>
+            <td class="theme1">&#9823</td>
+            <td>&#9823</td>
+            <td class="theme1">&#9823</td>
+
+            
+        </tr>
+        <tr>
+            <td class="theme1">&#9820</td>
+            <td>&#9822</td>
+            <td class="theme1">&#9821</td>
+            <td>&#9819</td>
+            <td class="theme1">&#9818</td>
+            <td>&#9821</td>
+            <td class="theme1">&#9822</td>
+            <td>&#9820</td>
+        </tr>
+    </table>
+</centre>
+</body>
+</html>

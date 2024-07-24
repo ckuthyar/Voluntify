@@ -6,7 +6,7 @@ def home(request):
         if form1.is_valid():
             data1=form1.cleaned_data
             listA=[]
-            list1=['&#9814',2,3,4,5,6,7,8]
+            list1=['\u2656',2,3,4,5,6,7,8]
             list2=[9,10,11,12,13,14,15,16]
             list3=[17,18,19,20,21,22,23,24]
             list4=[25,26,27,28,29,30,31,32]
